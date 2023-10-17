@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package test.proto.common.v2;
+
+option go_package = "common/v2;common";
+
+message A {
+  string name = 1;
+}
